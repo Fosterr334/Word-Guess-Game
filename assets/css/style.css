@@ -1,0 +1,75 @@
+body{
+    background-color  : red;
+}
+
+#ninLogo{
+    width             : 50%;
+    height            : 10%;
+}
+
+#marioBdr{
+    width             : 20%;
+    height            : 10%;
+    margin-left       : 5%;  
+}
+
+#linkBdr{
+    width             : 20%;
+    height            : 10%;  
+} 
+
+.col{
+    border-style      : dashed;
+    border-color      : white;
+    
+}
+
+#startImg{
+    width             : 45%;
+    height            : 100%;
+    float             : left;
+} 
+
+.question{
+    color             : white; 
+    font-size         : 170%;
+    margin-top        : 25%;
+    margin-left       : 5%;
+    float             : left;
+}
+
+.stocks{
+    width             : 1%;
+    height            : 1%;
+}
+
+#stock1{
+    margin-left       : 15%;
+    opacity           : 1;
+}
+
+#stock2{
+    opacity           : 1;
+}
+
+#stock3{
+    opacity           : 1;
+}
+
+.whiteText{
+    color             : white;
+    text-decoration   : underline;
+    font-size         : 400%;
+    margin-top        : 25%;
+    margin-left       : 10%;
+    float             : left;
+}
+
+#whiteTextAnchor{
+    color             : white;
+    font-size         : 500%;
+    margin-top        : 25%;
+    margin-left       : 25%;
+    float             : left;
+}
+

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Nintendo Hangman</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--Style.css-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
+
+</head>
+  <body>
+      <!--Header-->
+      <div class="container">
+        <div class="row">
+            <img id= "marioBdr" src="assets/images/MarioBorder.png" class="col-xl-2.5" alt="Mario Border">
+            <img id= "ninLogo" src="assets/images/NintendoLogo.jpg" class="col-xl-6" alt="Nintendo Logo">
+            <img id= "linkBdr" src="assets/images/LinkBorder.png" class="col-xl-2.5" alt="Link Border">
+        </div>
+        <div class="row">
+            <!--Column 1 Image and Question-->
+            <div class="col col-xl-3.5">
+                <div>
+                    <img id= "startImg" src="assets/images/SmashDefault.png" class="col-xl-5.5" alt="Samsh Ultimate Cover">
+                    <div class="question col-xl-5.5">Guess the character</div>
+                </div>
+            </div>
+            
+            <!--Column 2 Answer and stock-->
+            <div class="col col-xl-7.5">
+                <div class="row">
+                    <div id="hangmanArea"></div>   
+                </div>
+               
+                <div class="row">
+                    <img id= "stock1" src="assets/images/SmashLogo.png" class="stocks col-xl-3" alt="Smash Logo stock">
+                    <img id= "stock2" src="assets/images/SmashLogo.png" class="stocks col-xl-3" alt="Smash Logo stock">
+                    <img id= "stock3" src="assets/images/SmashLogo.png" class="stocks col-xl-3" alt="Smash Logo stock">
+                </div>
+            </div>
+        </div>
+      </div>
+      
+  </body>
+      <!--JavaScript-->
+      <script src="assets/javascript/game.js"></script>
+</html>
